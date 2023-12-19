@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Conor Earleys Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		.image-container{
+			display: flex;
+			justify-content: space-between;
+		}
+		.responsive-image{
+			max-width: 50%;
+			height: auto;
+		}
+		.contain{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio</h1>
+						<p>A Showcase of my projects and abilities.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">My Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="https://www.linkedin.com/in/conor-earley-765319252/">My linkedin</a></li>
+							<li class="active"><a href="https://github.com/conorearley">My GitHub</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/conor-earley-765319252/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/conorearley" class="icon brands"><span class="icon brands alt fa-github"></span></a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article class="post featured">
+								<header class="major">
+									
+									<h2><a href="me">Conor<br />
+									Earley</a></h2>
+									<p>I am passionate developer and currently studying Software Design(With Mobile Applications and Connected Devices), I will be graduating 
+									in June 2024 and hope to progress into a developer role in the future.</p>
+								</header>
+								<a href="me" class="image main"><img src="images/port.jpg" width="80%" /></a>
+								
+							</article>
+
+						<!-- Projects -->
+							<section class="posts">
+								<!-- Row 1-->
+								<article>
+									<header>
+										<h2><a href="#">Kill my<br />
+										Data</a></h2>
+									</header>
+									<img src="images/Picture1.png" class="image fit" alt="python program" />
+									<p>This was my first project I was tasked with during my placement, I developed a python program that scans bar codes using a bar code scanner, the bar codes where then sent to a live database which could be accesed remotely using the login portal I developed for the company.</p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Flight booking<br />
+										Application</a></h2>
+									</header>
+									<div class="image-container">
+										<img src="images/ma1.png" alt="1" class="responsive-image">
+										<img src="images/ma2.png"  alt="2" class="responsive-image">
+									</div>
+
+									<p>I developed a mobile application for an airline where customers could book flights to over 20 locations, the application was devloped using my knowledge of java and using andriod studio.</p>				
+								</article>
+								<!-- Row 2-->
+								<article>
+									<header>										
+										<h2><a href="#">Weather Warning<br />
+										System</a></h2>
+									</header>
+									<div class="image-container">
+										<img src="images/Weather Warn.png" alt="Weather Warning Setup" class="image fit">
+									</div>
+
+									<p>For my final year final project in my connected devices module I designed and built a Raspberry pi Python program that would set off an alarm and warning lights when the Raspberry pi temperature reading went below freezing, within Within jupyter notebook I read in sensor values and created a graph of the readings coming in to visualize the data </p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Golf Game<br />
+										Application</a></h2>
+									</header>
+									<img src="images/Golf.png" width="50%" height="50%"/>
+									<p>This is a Mobile Application I developed using Java in Andriod Studio, in the application a user can drag the golfball to the hole and when the ball reaches the hole a score is added to their highscore counter and saved using shared preferences.</p>
+								</article>
+								<!-- Row 3-->
+								<article>
+									<header>										
+										<h2><a href="#">Traffic<br />
+										Lights</a></h2>
+									</header>
+									<div class="image-container">
+										<img src="images/traf1.JPG" alt="1" class="responsive-image">
+										<img src="images/traf2.JPG"  alt="2" class="responsive-image">
+									</div>
+
+									<p>For my third year final project in my connected devices module I decided to showcase my skills by creating a traffic light system which also includes a pedestrian crossing button. I first devloped the program in C++ on an online emulator before finally building a prototype to demo using the arduino.</p>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Database Creation and JDBC<br />
+										Project</a></h2>
+									</header>
+									<img src="images/JDBC.jpg" class="image fit"/>
+									<p>The JDBC application I created is a user-friendly interface to review and manage appliances and devices. To develope this project I had to create a database with three tables and a Java Gui to display the targeted information from the database. The added ability to export certain data from the database and even the database itself offers a convenient way to analyze the data.</p>
+								</article>
+							</section>
+
+						
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<p>Get in touch</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Roscommon/Midlands based</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(083) 883-9733</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">conor22earley@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/conor-earley-765319252/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/conorearley" class="icon brands"><span class="icon brands alt fa-github"></span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy;Conor Earley</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
